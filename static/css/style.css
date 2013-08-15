@@ -1,0 +1,21 @@
+/* custom styles */
+html, body {
+    font: 16px /1.6 'Open sans';
+    font-weight: 300;
+    color: #2e2925;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 300;
+}
+.nav {
+    margin: 16px 0;
+}
+.nav a {
+    margin-right: 16px;
+    color: rgb(216,108,14);
+    font-weight: 700;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: rgba(216,108,14,0.8);
+}

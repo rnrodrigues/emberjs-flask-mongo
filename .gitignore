@@ -1,0 +1,6 @@
+# Vim swap files
+*.swp
+
+# rvm gemset files
+.ruby-gemset
+.ruby-version
