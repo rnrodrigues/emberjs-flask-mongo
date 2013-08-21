@@ -4,3 +4,6 @@
 # rvm gemset files
 .ruby-gemset
 .ruby-version
+
+# Python compiled files
+*.pyc

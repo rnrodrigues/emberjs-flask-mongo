@@ -39,3 +39,5 @@ App.CountriesRoute = Ember.Route.extend({
     return App.Country.find();
   }
 });
+
+App.LoadingRoute = Ember.Route.extend({});
