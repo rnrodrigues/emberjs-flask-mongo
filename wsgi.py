@@ -14,7 +14,7 @@ class MongoDocumentEncoder(json.JSONEncoder):
     return json.JSONEncoder(self, o)
 
 def jsonify(*args, **kwargs):
-  return Response(json.dumps(dict(*args, **kwargs), cls=MongoDocumentEncoder, separators=(",",":")), mimetype="application/json")
+  return Response(json.dumps(dict(*args, **kwargs), cls=MongoDocumentEncoder, separators=(",",":"), ensure_ascii=False), mimetype="application/json; charset=utf-8")
 
 application = app = Flask(__name__, static_url_path="")
 

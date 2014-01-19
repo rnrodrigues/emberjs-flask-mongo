@@ -1,3 +1,8 @@
+var myObject = {
+  status: false,
+  speed: 0
+}
+
 App = Ember.Application.create();
 
 App.Router.map(function() {
@@ -40,4 +45,4 @@ App.CountriesRoute = Ember.Route.extend({
   }
 });
 
-App.LoadingRoute = Ember.Route.extend({});
+App.LoadingRoute = Ember.Route.extend();
